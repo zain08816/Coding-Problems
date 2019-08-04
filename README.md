@@ -1,2 +1,17 @@
 # CodeSignal_Problems
-My answers to various CodeSignal Arcade problems, Daily Challenges, and other problems
+
+    
+## Directory Structure
+
+CodeSignal_Problems
+| ----- [ Arcade ] (/Arcade)
+          | ----- [Intro] (/Arcade/Intro)
+          | ----- [Core] (/Arcade/Core)
+          | ----- [Python] (/Arcade/Python)
+          | ----- [Databases] (/Arcade/Databases)
+          | ----- [Graphs] (/Arcade/Graphs)
+     | ---- Daily_Challenges (/Daily_Challenges)
+     | ---- README.md
+     
+
+
