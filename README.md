@@ -9,7 +9,10 @@ CodeSignal_Problems
 │   ├── [Core]
 │   ├── [Python]
 │   ├── [Databases]
-│   └── [Graphs]
+│   ├── [Graphs]
+│   └── README.md
 ├── [Daily_Challenges]
-└── README.md
+│   └── README.md
+├── README.md
+└── .gitignore
 ````
