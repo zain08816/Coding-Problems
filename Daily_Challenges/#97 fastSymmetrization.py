@@ -8,25 +8,16 @@ def fastSymmetrization(a):
         for col in range(col_len):
             print(row, col)
             if a[row][col] != '*':
-                if col <= mid_col:
-                    x = a[row][col_len-1-col]
-                    print(x, col_len-1-col)
-                    if x == '*':
-                        a[row][col_len-1-col] = a[row][col]
-                    elif x == a[row][col]:
-                        continue
-                    else:
-                        return []
-                if col > mid_col:
-                    x = a[row][col_len-col-1]
-                    print(x, col_len-col-1)
-                    if x == '*':
-                        a[row][col_len-col-1] = a[row][col]
-                    elif x == a[row][col]:
-                        continue
-                    else:
-                        return []
+                x = a[row][col_len-col-1]
+                print(x, col_len-col-1)
+                if x == '*':
+                    a[row][col_len-col-1] = a[row][col]
+                elif x == a[row][col]:
+                    continue
+                else:
+                    return []
     
+                    
     #Vertical Symetry
     for row in range(mid_row):
         for col in range(col_len):
