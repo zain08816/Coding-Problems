@@ -34,6 +34,8 @@ CodeSignal_Problems
 │   └── README.md
 ├── [Daily_Challenges]
 │   └── README.md
+├── [Other Solutions]
+│   └── README.md
 ├── README.md
 └── .gitignore
 ````
