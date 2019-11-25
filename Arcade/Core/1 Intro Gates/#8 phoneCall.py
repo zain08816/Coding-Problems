@@ -12,3 +12,5 @@ def phoneCall(min1, min2_10, min11, s):
         s -= min11
     
     return time
+    #better solutuion
+    
